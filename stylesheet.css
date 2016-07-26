@@ -1,1 +1,88 @@
+.nav {
+    padding: 16px 30px 16px 30px;
+    position: relative;
+}
 
+.nav li {
+    float: right;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 13px;
+    margin: 0 9px;
+}
+
+.nav button {
+    color: white;
+    background: #2e8ae6;
+    border: none;
+    height: 30px;
+    width: 70px;
+}
+
+.main {
+    text-align: center;
+    padding-top: 109px;
+}
+
+.main img {
+    width: 272px;
+    height: 92px;
+}
+
+.main form input {
+    width: 569px;
+    height: 26px;
+    margin-top: 19px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.main form button {
+    font-size: 10px;
+    background: #2e8ae6;
+    height: 29px;
+    width: 118px;
+    margin: 16px 4px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: rgb(245, 245, 245);
+    font-weight: bold;
+    color: rgb(68, 68, 68);
+}
+
+footer {
+    background: #f2f2f2;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px
+    display: block;
+}
+
+footer li {
+    font-family: Arial, sans-serif;
+    color: #666;
+    font-size: 13px;
+    line-height: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline-block;
+    
+}
+
+.left {
+    float: left;
+    margin: 8px 15px;
+}
+
+.right {
+    float: right;
+    margin: 8px 15px 10px 0;
+}
+
+body {
+    width: 100%;
+    left: 0;
+    display: block;
+}
